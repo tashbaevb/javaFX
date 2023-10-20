@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="327.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demojavafx.controller.BackController">
+   <children>
+      <ImageView fitHeight="339.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/sunset.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="playBtn" layoutX="14.0" layoutY="129.0" mnemonicParsing="false" onAction="#playBtnClick" style="-fx-background-color: transparent; -fx-text-fill: black;" text="Play" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="216.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-text-fill: black;" text="Exit" textFill="#fffdfd">
+          <font>
+              <Font name="System Bold Italic" size="35.0" />
+          </font>
+      </Button>
+   </children>
+</AnchorPane>

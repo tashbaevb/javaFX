@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="190.0" prefWidth="1193.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demojavafx.controller.PlayController">
+   <children>
+      <ImageView fx:id="backg1" fitHeight="400.0" fitWidth="600.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p-fon-dlya-platformera.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pers" fitHeight="196.0" fitWidth="139.0" layoutX="-6.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/pers.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backg2" fitHeight="400.0" fitWidth="600.0" layoutX="593.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/p-fon-dlya-platformera.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
